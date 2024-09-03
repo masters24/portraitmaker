@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Theportraitmaker</title> 
+	<link rel="icon" href="logo.png" type="image">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="order.html">Order portrait</a>
+  <a href="contact.html">Contact us</a>
+  <a href="join.html">Join as artist</a>
+<img src="newlogo1.png" class="logo">
+</div>
+
+<div class="bg">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces." required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="\d{10}" title="Phone number should be 10 digits." required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    
+<div class="footer">
+
+<div><h2>Theportraitmaker</h2>
+<div class="footerlogo"><h3>Turn your photo into Handmade Art</h3></div>
+</div>
+<div>
+    <p>Phone: +91 123 456 7890</p>
+    <p>Email: Theportraitmaker@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/awaashotel">theportraitmaker</a></p>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
+
+
